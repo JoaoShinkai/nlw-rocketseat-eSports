@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.borderDetail{
+    border-top: solid 4px transparent;
+    border-radius: 8px;
+    background: linear-gradient(to right, #2A2634, #2A2634), linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+}
